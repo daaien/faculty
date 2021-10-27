@@ -1,0 +1,11 @@
+Sa se scrie un program care citeste pe post de intrare fisierul INPUT.DAT, continand un set de N numere cu cate 2 zecimale. Numarul N va fi scris in fisierul INPUT.DAT pe prima linie, urmand cele N numere cu cate 2 zecimale fiecare.
+
+Ultima linie din fisier va contine numarul ce urmeaza a fi cautat, urmat de un spatiu si de o valoare epsilon folosita in comparatii.
+
+Daca numerele din fisier sunt deja sortate, programul va cauta prin metoda cautarii binare numarul cerut pe ultima linie utilizand epsilon ca si coeficient de eroare acceptata la comparatie.
+
+Daca numerele din fisier nu sunt sortate, programul va cauta prin metoda cautarii liniare numarul cerut pe ultima linie utilizand epsilon ca si coeficient de eroare acceptata la comparatie.
+
+Numarul de pasi executati de algoritmul de cautare, fie cel liniar fie cel logaritmic al cautarii binare, se va scrie in fisierul OUTPUT.DAT, fisier ce trebuie sa contina o singura linie.
+
+Atentie: Comentariile de cod sunt obligatorii.  Este important ca programul sa functioneze pentru seturi de date arbitrare ale fisierului INPUT.DAT. Numarul N este de tip intreg fara semn.
